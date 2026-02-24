@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  student:
+    image: ujwalkhairnar2004/clg_student:latest
+    ports:
+      - "91:80"
+    deploy:
+      replicas: 3
+
+  teacher:
+    image: ujwalkhairnar2004/clg_teacher:latest
+    ports:
+      - "92:80"
+    deploy:
+      replicas: 3
+
+  security_guard:
+    image: ujwalkhairnar2004/clg_security_guard:latest
+    ports:
+      - "93:80"
+    deploy:
+      replicas: 3
+
+  cleaning_staff:
+    image: ujwalkhairnar2004/clg_cleaning_staff:latest
+    ports:
+      - "94:80"
+    deploy:
+      replicas: 3
