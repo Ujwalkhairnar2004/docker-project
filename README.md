@@ -1,5 +1,8 @@
 🎓 Docker-Swarm-Based-Multi-Service-College-Management-System-with-CI-CD
 multi-service-College-Portal-with-Docker-Jenkins-CI-CD-and-worker-nodes.
+
+GitHub → Jenkins → Build → Tag → Login → Push → Deploy → Docker Swarm
+
 📌 Project Overview
 
 College-Portal is a containerized multi-service college management system designed to manage different departments and roles inside a campus environment.
@@ -127,7 +130,6 @@ docker swarm join --token <TOKEN> <MANAGER-IP>
 
 <img width="1366" height="768" alt="{CCD8240F-039C-451C-A340-FD633BCE039A}" src="https://github.com/user-attachments/assets/c34d7cc2-bd9a-4f41-966e-fee0cb3e3849" />
 
-
 🔐 Security Best Practice
 
 ⚠️ Do NOT hardcode Docker Hub username and password in Jenkins pipeline.
@@ -136,9 +138,13 @@ Use Jenkins Credentials Manager for secure authentication.
 📈 Key Features
 
 ✔ Multi-Service Architecture
+
 ✔ Scalable using Docker Swarm
+
 ✔ CI/CD Automation with Jenkins
+
 ✔ Containerized Deployment
+
 ✔ Production-Oriented Setup
 
 🔹 PUSH Pipeline (Build & Push Image)
