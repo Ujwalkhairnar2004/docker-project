@@ -149,13 +149,16 @@ Use Jenkins Credentials Manager for secure authentication.
 
 🔹 PUSH Pipeline (Build & Push Image)
 
- output :
+ output : 
  
+https://github.com/user-attachments/assets/2653e354-ab4e-4199-956d-4f473f8bbb58
 
  🔹 DEPLOYMENT Pipeline
  
  output :
  
+https://github.com/user-attachments/assets/8f3656f5-28b2-4ce7-b49a-ca40466e5f4c
+
 👨‍💻 Author
 
 Your Name
