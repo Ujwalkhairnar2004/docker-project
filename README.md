@@ -82,7 +82,7 @@ pipeline {
         }
         stage('push') {
             steps {
-                sh 'docker login -u  -p 
+                sh 'docker login -u $user -p $password 
                 sh 'docker push $repo'
             }
         }
@@ -150,6 +150,7 @@ Use Jenkins Credentials Manager for secure authentication.
 🔹 PUSH Pipeline (Build & Push Image)
 
  output :
+ 
 
  🔹 DEPLOYMENT Pipeline
  
